@@ -1,0 +1,155 @@
+.hero{
+    width: auto;
+    background-color:white;
+    text-align: center;
+}
+
+.mainimagediv{
+    padding: 0px 40px 10px 40px;
+}
+.mainhead-h1{
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+    font-weight: 1000;
+    
+}
+.second-mainhead-h1{
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+    font-weight: 1000;
+    
+}
+.second-mainheading{
+    text-align:center;
+}
+.first-button{
+    background-color: black;
+    border-radius: 30px;
+    color:white;
+    padding: 2px 15px 2px 15px;
+    border: none;
+
+}
+.slider-image .figcap{
+    display: none;
+    
+}
+.second-button{
+    background-color: black;
+    border-radius: 30px;
+    color:white;
+    padding: 2px 15px 2px 15px;
+    border: none;
+    margin-left: 10px;
+
+}
+.slider-image *{
+    display: inline;
+}
+.second-figlist{
+    margin-left: 280px;
+}
+.third-figlist{
+    margin-left: 290px;
+}
+.figcaption{
+    display: inline;
+}
+.fourthmain{
+    margin-top: 50px;
+}
+.fourth-imagesection{
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+}
+.latestfirst{
+    
+    margin-left: 10px;
+}
+.first-quote{
+    position: absolute;
+    top: 10;
+    left: 50;
+    margin-left: 30px;
+
+}.second-quote{
+    position: absolute;
+    top: 30;
+    left: 250;
+    margin-left: 700px;
+    margin-top:630px
+
+}
+
+@media only screen and (max-width:500px) {
+    .hero{
+        max-width: 530px;
+        background-color:white;
+        padding-left:20px ;
+    }
+    .mainimagediv{
+        padding: 0px 30px 10px 0px;
+    }
+    .sanity-image{
+        width: 100%;
+        height: 500px
+    }
+    .mainhead-h1{
+        font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+        font-weight: 1200;
+        
+        
+        
+    }.first-button{
+        background-color: black;
+        border-radius: 30px;
+        color:white;
+        padding: 2px 10px 2px 10px;
+        border: none;
+    
+    }
+    .second-button{
+        background-color: black;
+        border-radius: 30px;
+        color:white;
+        padding: 2px 10px 2px 10px;
+        border: none;
+        margin-left: 10px;
+    
+    }
+     .featured{
+        margin-top: 70px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .slider-image *{
+        display: block;
+        padding: 10px 30px 10px 0px;
+    }
+    .second-image{
+        width: 100%
+    }
+    .figcaption{
+        display: none;
+    }
+    .slider-image .figcap{
+        display: inline-block;
+    
+    }
+    .fourth-imagesection{
+        display: block;
+        margin-top: 40px;
+        position: relative;
+    }
+    .latestfirst{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        
+    }
+    .first-quote{
+        position:absolute;
+        top: 2;
+        left: 8;
+        
+    }
+}

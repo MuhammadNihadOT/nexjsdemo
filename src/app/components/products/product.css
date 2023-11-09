@@ -1,0 +1,8 @@
+.prodheading{
+    display: flex;
+    justify-content: space-between;
+}
+.prodcategories{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,149 @@
+.topnav{
+    padding: 2px 38px 2px 36px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:small;
+    font-weight: 500;
+}
+.second-nav{
+    padding:16px 38px 16px 36px ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.third-nav{
+    width: auto;
+    background-color: lightgrey;
+    padding: 10px 500px 5px 500px
+}
+.text-content .thirdnav-span{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    text-align: center;
+    display: inline-block;
+}
+.thirdnav-p{
+    font-size: 12px;
+    
+
+}
+.text-content{
+    text-align: center;
+}
+.thirdnav-p a{
+    font-weight: 600;
+    color: black;
+    font-family: 'Futura',sans-serif;
+}
+.menu-item * {
+    display: inline;
+    align-items: center;
+}
+.listitems{
+margin-left: 10px;
+
+}
+.listitems a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.menuitems{
+    padding: 3px 10px 3px 10px;
+}
+.search{
+    border:none;
+    background-color: lightgrey;
+    width: 170px;
+    text-align: center;
+}
+.searchsection{
+    float: left;
+    align-items: center;
+    
+}
+
+.searchicon{
+    position: absolute;
+    top: 25;
+    
+
+}
+.thirdsection{
+    display:flex;
+    justify-content:space-between;
+}
+.navbartoggle{
+    display: none;
+}
+@media only screen and (min-width:326px) and (max-width:480px) {
+    .topnav{
+        display: none;
+    }
+    #nikeicon{
+        margin-left: 25px;
+        width: 60px;
+        height: 60px;
+
+    }
+    .menu-item{
+        display: none;
+    }
+    .second-nav{
+        padding: 0px  12px 0px 13px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 100px;
+    }
+    .search{
+        visibility: hidden;
+    }
+    .searchicon{
+        position: absolute;
+        top: 10;
+        margin-left: 150px;
+        
+    }
+    .third-nav{
+        width: 480px;
+        background-color: lightgrey;
+        padding: 5px 10px 0px 0px;
+        display: inline-block;
+        text-align: center;
+        
+        
+        
+    }
+    .text-content{
+        display: inline;
+        text-align: center;
+    }
+    .text-content .thirdnav-span{
+        font-size: 13px;
+        font-weight: 500;
+        font-family: inherit;
+        text-align: center;
+        
+    }
+    .thirdnav-p{
+        font-size: 10px;
+        
+    
+    }
+    .thirdsection{
+        display:flex;
+        justify-content:space-between;
+        margin-left: 50px;
+    }
+    .navbartoggle{
+        display: inline;
+        border:none
+    }
+    .thirdsection .hearticon{
+        margin-left: 20px;
+    }
+    
+}
